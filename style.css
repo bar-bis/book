@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    background-color: snow;
+}
+
+.main-nav {
+    left: 0;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background: linear-gradient( rgb(188, 62, 210), rgb(240, 128, 247), rgb(250, 173, 245));
+    box-shadow: 3px 2px 10px rgb(250, 173, 245);
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 10px 15px;
+    color: #333;
+}
+
+.nav-list:active,
+.nav-list:focus,
+.nav-list:hover,
+.nav-list:link {
+    color: #FFF;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr));
+}
+
+.supplies {
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid #888;
+    box-shadow: 2px 3px 10px #888;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    overflow: hidden;
+}
+
+.supply {
+    width: 20vw;
+    height: 20vw;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+/* drag */
+
+.draggable {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
+}
+
+#div1,
+#div2 {
+    float: left;
+    width: 10vw;
+    height: 10vh;
+    margin: 5vh;
+    padding-top: 2vh;
+    border: 1px solid #333;
+    box-shadow: 3px 2px 10px #333;
+    text-align: center;
+    align-items: center;
+}
+
+#drag1,
+#drag2,
+#drag3,
+#drag4,
+#drag5,
+#drag6,
+#drag7,
+#drag8,
+#drag9,
+#drag10,
+#drag11,
+#drag12,
+#drag13 {
+    width: 10vw;
+    height: 10vh;
+}
