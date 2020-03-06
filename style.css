@@ -108,3 +108,71 @@ h2 {
     width: 15vw;
     height: 20vh;
 }
+
+
+/* Memory */
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.memory {
+    flex-basis: 15%;
+    flex-grow: 1;
+    height: 33.33vh;
+    border: 4px solid #fff;
+    background-color: #000;
+}
+
+@media (orientation: portrait) {
+    .memory {
+        height: 16.66vh;
+        flex-basis: 30%;
+    }
+}
+
+.red {
+    background: url(images/1.png) center no-repeat;
+}
+
+.blue {
+    background: url(images/2.png) center no-repeat;
+}
+
+.yellow {
+    background: url(images/3.png) center no-repeat;
+}
+
+.green {
+    background: url(images/4.png) center no-repeat;
+}
+
+.brown {
+    background: url(images/5.png) center no-repeat;
+}
+
+.gray {
+    background: url(images/6.png) center no-repeat;
+}
+
+.lightgreen {
+    background: url(images/7.png) center no-repeat;
+}
+
+.cadetblue {
+    background: url(images/8.png) center no-repeat;
+}
+
+.violet {
+    background: url(images/9.png) center no-repeat;
+}
+
+.hid {
+    background: black;
+}
+
+.off {
+    background: #eee;
+}
